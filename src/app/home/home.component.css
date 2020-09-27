@@ -1,0 +1,16 @@
+.card {
+    display: inline-table;
+    width: 20% !important;
+    margin: 2em;
+}
+
+.content {
+    height: 36.6em!important;
+    overflow: overlay;
+}
+
+.page_title{
+    background: grey;
+    color: white;
+    padding: 1px 0;
+}

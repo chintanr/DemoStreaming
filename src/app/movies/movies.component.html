@@ -1,0 +1,20 @@
+<div class="page_title">
+    <div class="container">
+        <h1>Popular Movies</h1>
+    </div>
+</div>
+<div class="container content">
+    <div *ngFor="let movies of movies | slice:0:21; let i=index" class="card" style="
+    width: 14%">
+        <img class="card-img-top" src="{{ movies.images.PosterArt.url }}">
+        <div class="card-body">
+            <p class="card-text">
+                {{ movies.title }}
+            </p>
+        </div>
+    </div>
+
+
+    <p id="loading">Loading....</p>
+    <p id="error">Oops! something went wrong....</p>
+</div>

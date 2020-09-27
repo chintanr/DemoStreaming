@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+.tiles.name {
+    position: absolute;
+    z-index: 0;
+    left: 22%;
+    top: 31%;
+    color: maroon;
+    background: chocolate transparent;
+    border-radius: 8px;
+    padding: 3px;
+}
